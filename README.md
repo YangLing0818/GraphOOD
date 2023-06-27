@@ -22,7 +22,19 @@ https://drive.google.com/drive/folders/15YgnsfSV_vHYTXe7I4e_hhGMcx0gKrO8?usp=sha
 ## Training and Evaluation
 We provide the sample script for training our IS-GIB. For example, the training script for Twitch dataset is
 ```
-
+python run_train.py \
+  --device 0 --log_steps 100 --epochs 3000 --runs 10 \
+  --dataset twitch \
+  --batch_runs_base_dir ./batch_runs/twitch_expr/ \
+  --train_graph_list "['DE', 'ES', 'FR']" \
+  --val_graph_list "['ENGB']" \
+  --metric roc_auc \
+  --append_best_file best_test.txt \
+  --cross_graph_label_rel_IB_loss \
+  --first_last_layer_IB_loss \
+  --first_last_layer_2nd_IB_loss \
+  --lr 1e-4 \
+  --save_model_dir ./saved_models/twitch_expr_model
 ```
 
 If you found the codes and datasets are useful, please cite our paper

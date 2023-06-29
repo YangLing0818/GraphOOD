@@ -3,7 +3,8 @@
 Official Implementation for our TKDE paper [Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization](https://arxiv.org/abs/2306.15902). This work focuses on distribution shifts on graph data (Graph OOD) for both graph- and node-level prediction tasks, and proposes a new method Individual and Structural Graph Information Bottlenecks (**IS-GIB**) for out-of-distribution generalization.
 
 ## Overview of IS-GIB
-<img width="567" alt="image" src="https://github.com/YangLing0818/GraphOOD/assets/62683396/d1e57948-eef6-4110-9c01-61ea8a8ad8eb">
+<img width="483" alt="image" src="https://github.com/YangLing0818/GraphOOD/assets/62683396/14932840-07d3-4cab-863a-4ed3b85558d2">
+
 
 ## Getting Started
 ### Installation

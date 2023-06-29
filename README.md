@@ -1,6 +1,6 @@
 # Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization
 
-Official Implementation for our TKDE paper [Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization](). This work focuses on distribution shifts on graph data (Graph OOD) for both graph- and node-level prediction tasks, and proposes a new method Individual and Structural Graph Information Bottlenecks (**IS-GIB**) for out-of-distribution generalization.
+Official Implementation for our TKDE paper [Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization](https://arxiv.org/abs/2306.15902). This work focuses on distribution shifts on graph data (Graph OOD) for both graph- and node-level prediction tasks, and proposes a new method Individual and Structural Graph Information Bottlenecks (**IS-GIB**) for out-of-distribution generalization.
 
 ## Overview of IS-GIB
 <img width="567" alt="image" src="https://github.com/YangLing0818/GraphOOD/assets/62683396/d1e57948-eef6-4110-9c01-61ea8a8ad8eb">
@@ -39,5 +39,10 @@ python run_train.py \
 
 If you found the codes and datasets are useful, please cite our paper
 ```
-
+@article{yang2023individual,
+  title={Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization},
+  author={Yang, Ling and Zheng, Jiayi and Wang, Heyuan and Liu, Zhongyi and Huang, Zhilin and Hong, Shenda and Zhang, Wentao and Cui, Bin},
+  journal={arXiv preprint arXiv:2306.15902},
+  year={2023}
+}
 ```

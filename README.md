@@ -43,7 +43,8 @@ If you found the codes and datasets are useful, please cite our paper
 @article{yang2023individual,
   title={Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization},
   author={Yang, Ling and Zheng, Jiayi and Wang, Heyuan and Liu, Zhongyi and Huang, Zhilin and Hong, Shenda and Zhang, Wentao and Cui, Bin},
-  journal={arXiv preprint arXiv:2306.15902},
-  year={2023}
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2023},
+  publisher={IEEE}
 }
 ```
